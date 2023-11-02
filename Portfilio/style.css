@@ -1,0 +1,177 @@
+@import url('https://fonts.googleapis.com/css2?family=Barlow&family=Inclusive+Sans:ital@0;1&family=Inter:wght@300&family=Kenia&family=Mooli&family=Nunito&family=Poppins:wght@300;400&family=Roboto&family=Skranji&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@300&family=Nunito:wght@300&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+}
+.container{
+    display: flex;
+}
+/* Side Bar*/
+.sidebaGO{
+    transform: translate(-450px,0px);
+    position: absolute;
+}
+.sidebar{
+    background-color: black;
+    color: white;
+    font-size: x-large;
+    padding: 50px;
+    height: 100vh;
+    transition: transform 0.3s ease-in;
+}
+.sidebar a{
+    color: white;
+    text-decoration: none;
+    font-size: larger;
+    font-family: 'Roboto', sans-serif;
+    
+}
+.sidebar nav ul{
+    list-style: none;
+    padding: 30px;
+}
+li{
+    padding: 25px;
+}
+nav{
+    margin-top: 30px;
+}
+.main{
+    background-color: #e2d4eb;
+    width: 82vw;
+    padding: 20px; 
+    height: 100vh;
+
+}
+.dropdown-bar{
+    display: flex;
+    position: absolute;
+    left: 10px;
+    top: 10px;
+    height: 4vh;
+}
+.cancel{
+    margin-left: 18vw;
+}
+.menu{
+    border: 2px solid white;
+    cursor: pointer;
+}
+.menu img {
+    width:25px;
+    height:25px;
+   background-color: white;
+}
+/*Home Page*/
+.info-container{
+    display: flex;
+    justify-content: space-around;
+    height: 55vh;
+    width: 70vw;
+    margin: 100px auto;
+    color: black;  
+    flex-wrap: wrap;
+}
+.info-text{
+   display: flex;
+   justify-content: center;
+   flex-direction: column;
+}
+.name{
+    font-size: xx-large;
+    margin: 5px;
+}
+.description{
+    font-size: small;
+    margin: 5px;
+}
+button{
+    height: 5vh;
+    width: 25vw;
+    background-color: rgb(155, 155, 203);
+    border-radius: 20px;
+    margin: 5px;
+    border: 1px solid black;
+}
+button:hover{
+    border: 2px solid white;
+}
+.info-container img{
+    height: 40vh;
+}
+/*Contact Me Style */
+.form-container{
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   flex-direction: column;
+   font-family: 'Montserrat', sans-serif;
+   height: 90vh;
+   font-size: larger;
+}
+input{
+    width: 42vw;
+    height: 4vh;
+    border-radius: 10px;
+    border: 2px solid black ;
+}
+select{
+    width: 42vw;
+    height: 4vh;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
+#subject{
+    width: 42vw;
+    border: 2px solid black ;
+    border-radius: 10px;
+}
+/*About me Page*/
+.about{
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+    font-family: 'Montserrat', sans-serif;
+    font-family: 'Nunito', sans-serif;
+}
+.about img:hover{
+    filter: drop-shadow(5px 5px 5px  white);
+}
+.main h1{
+    text-align: center;
+    font-family: 'Nunito', sans-serif;
+    font-size: 1.5em;
+}
+/*Blogs*/
+.blogs{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+/*Skills*/
+.skill-container{
+    margin-top: 10px;
+}
+.skill-score{
+    height: 2px;
+    width: 50px;
+    background-color: green;
+}
+.fifty{
+    width: 35px;
+    background-color: red;
+}
+.seventyfive{
+    background-color: yellow;
+    width: 45px;
+}
+/* Media 
+@media (max-width:1615px){
+    .main{
+        background-color: orange;
+    }
+}*/
